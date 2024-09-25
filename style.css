@@ -227,31 +227,6 @@ form  input {
 .footer-4 {
     
 }
-/* media query */
-@media (max-width:375px) {
-    .body {
-        max-width: 400px;
-    }
-    .nav-list {
-        display: none;
-    }
-    .nav-button {
-        display: none;
-    }
-    .nav-container {
-        justify-content: flex-start;
-        margin-left: 30px;
-    }
-    .even-container {
-        flex-direction: column;
-        justify-content: center;
-    }
-    .items {
-        display: none;
-    }
-    .sliders {
-        display: inline-block;
-    }
-}
+
 
 
