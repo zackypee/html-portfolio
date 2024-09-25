@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:"Be Vietnam Pro", sans-serif;
+}
+body {
+    height: 100vh;
+    max-width: 100%;
+    background-image: url(/images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h1 {
+    font-weight:700;
+    font-size: 3rem;
+    color: hsl(228, 39%, 23%);
+    font-family: "Be Vietnam Pro", sans-serif;
+    margin-top: 50px;
+
+
+}
+h2 , h3  {
+    color: hsl(228, 39%, 23%);
+    font-weight: 700;
+    margin-top: 30px;
+    max-width: 300px;
+   
+}
+p {
+    font-weight: 400;
+    font-size: 16px;
+    color: hsl(227, 12%, 61%);
+}
+.nav-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+.nav-list{
+    display: flex;
+    gap: 20px;
+}
+.nav-list li {
+    list-style: none;
+    
+}
+.nav-list li a {
+    text-decoration: none;
+    color:hsl(228, 39%, 23%);
+}
+.first-button {
+    color:  hsl(0, 0%, 98%);
+    width: 120px;
+    height: 35px;
+    border-radius: 115px;
+    border: 0;
+    background-color: hsl(12, 88%, 59%);
+    padding: 7px 7px;
+    cursor: pointer;
+    box-shadow: 10px 5px 10px hsl(13, 100%, 80%) ;
+}
+.first-button:hover {
+    background-color: hsl(13, 100%, 80%);
+}
+#first-section {
+    max-width: 100%;
+    height: auto;
+}
+.even-container {
+    display: flex;
+    max-width: 1110px;
+    max-height: auto;
+    margin-top: 50px;
+    justify-content: center;
+    margin-left: 150px;
+}
+.even-columns {
+   width: 500px;
+   height: auto;
+}
+#first-svg {
+    max-width: 400px;
+    max-height: 400px;
+    margin-left: 50px;
+}
+.text-paragraph {
+    margin-top: 20px;
+    max-width: 450px;
+}
+.about-list {
+    list-style: none;
+    margin-left: 50px;
+}
+.first-section-button {
+    margin-top: 20px;
+}
+.hover-class li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.hover-class li a:hover {
+    color : hsl(12, 88%, 59%) ;
+}
+.hover-class img:hover {
+    background-color:  hsl(12, 88%, 59%) ;
+}
+.h3-button{
+    height: 20px;
+    width: 40px;
+    border-radius: 10px;
+    margin-left: -50px;
+    background-color: hsl(12, 88%, 59%);
+    border: 0;
+    color: white;
+    font-size: 10px;
+}
+ 
+.slider-container {
+    display: flex;
+    max-width: 100%;
+    max-height: auto;
+    gap: 15px;
+    justify-content: center;
+}
+.sliders {
+    display: none;
+}
+.items {
+    max-width: 400px;
+    max-height: 200px;
+    background-color:hsl(0, 0%, 98%);
+    margin-top: 80px;
+}
+.profile-images {
+    display: absolute;
+    height: 70px;
+    width: 70ox;
+    margin-left: 150px;
+    margin-top: -30px;
+}
+.section-2-h2 {
+    max-width: 100%;
+    text-align:  center;
+    margin-top: 100px;   
+}
+.section-2-button {
+    margin-top: 30px;
+    margin-left: 650px;
+
+}
+.closing-container {
+    background-color: hsl(12, 88%, 59%);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    max-width: 100%;
+    max-height: 300px;
+}
+.section-3-h2 {
+    align-items: center;
+    margin-top: 25px;
+    color: white;
+    margin-bottom: 25px;
+}
+.section-3-button {
+    margin-top: 30px;
+    background-color: hsl(0, 0%, 98%);
+    color:  hsl(12, 88%, 59%);
+    box-shadow: none;
+}
+.footer-container {
+    display: flex;
+    height: 150px;
+    width: 100%;
+    gap: 40px;
+    background-color: hsl(233, 12%, 13%);
+    justify-content: center;
+    align-items: center;
+}
+.footers {
+    width: 250px;
+    height: auto;
+    margin-top: 30px;
+}
+.footers li {
+    list-style: none;
+    color: hsl(0, 0%, 98%);
+    padding:5px;
+    font-size: 12px;
+}
+.icon-span {
+    margin-top: 40px;
+}
+
+.footer-1 img { 
+    color: hsl(0, 0%, 98%);
+    text-decoration-color: hsl(0, 0%, 98%);
+}
+form  input {
+    height: 30px;
+    width: 120px;
+    border-radius: 20px;
+    padding: 5px 7px;
+    border: 0;
+    font-size: 10px;
+}
+.footer-button {
+    background-color: hsl(12, 88%, 59%);
+    color: hsl(0, 0%, 98%);
+    padding: 5px 9px;
+    border: 0;
+    border-radius: 15px;
+    font-size: 12px;
+}
+.footer-paragraph {
+    margin-top: 30px;
+    font-size: 10px;
+}
+.footer-2 {
+   
+}
+.footer-3 {
+    
+    
+}
+.footer-4 {
+    
+}
+/* media query */
+@media (min-width:375px) {
+    .body {
+        max-width: 400px;
+    }
+    .nav-list {
+        display: none;
+    }
+    .nav-button {
+        display: none;
+    }
+    .nav-container {
+        justify-content: flex-start;
+        margin-left: 30px;
+    }
+    .even-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .items {
+        display: none;
+    }
+    .sliders {
+        display: inline-block;
+    }
+}
+
+
