@@ -217,6 +217,9 @@ form  input {
     margin-top: 30px;
     font-size: 10px;
 }
+.hidden-list {
+    display: none;
+}
 .footer-2 {
    
 }
@@ -227,6 +230,116 @@ form  input {
 .footer-4 {
     
 }
-
+/* media query */
+@media (max-width:412px) and (min-width:410px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing:border-box;
+        font-family:"Be Vietnam Pro", sans-serif;
+    }
+    
+    .body {
+      width: 100px;
+      background-image: none;
+    }
+    p {
+        font-size: 14px;
+    }
+    .nav-list {
+        display: none;
+    }
+    .nav-button {
+        display: none;
+    }
+    .nav-container {
+        justify-content: flex-start;
+        margin-left: 30px;
+    }
+    .even-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 0;
+        width: 412px;
+        
+    }
+    .even-columns {
+        width: auto;
+        height: auto;
+    }
+    .even-columns h2 {
+        text-align: center;
+    }
+    
+    .first-column {
+        order: 1;
+        text-align: center;
+    }
+    .first-column h1 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .second-column {
+        order: -1;
+    }
+    .second-column img {
+        height: 300px;
+        width: 300px;
+        margin-left: 5px;
+    }
+    .third-column {
+        text-align: center;
+    }
+    .third-column h2 {
+        margin-left: 90px;
+        width: 200px ;
+    }
+    .third-column p {
+        width: 300px;
+        margin-left: 50px;
+        font-size: 14px;
+    }
+    .items {
+        display: none;
+    }
+    .sliders {
+        display: inline-block;
+    }
+    .closing-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .section-3-button {
+        margin-bottom:30px ;
+    }
+    .footer-container {
+        flex-direction: column;
+        height: 400px;
+        text-align: center;
+    }
+    .footers {
+        height: 50px;
+        width: 100%;
+    }
+    .footer-2 {
+        display: flex;
+        gap: 30px;
+        order: -1;
+    }
+    .hidden-list {
+        display: flex;
+    }
+    .footer-3 {
+        display: none;
+    }
+    .footer-4 {
+        order: -2;
+    }
+    .footer-paragraph {
+        display: none;
+    }
+}
 
 
